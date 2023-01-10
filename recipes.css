@@ -1,11 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+html {
+    font-family: 'Lora', serif;
+}
+
 img {
     height: 200px;
+    border: 1px solid black
+}
+
+h1 {
+    color: steelblue
+}
+
+nav a{
+    color: white;
+}
+nav {
+    background-color: orange;
+    border-bottom: 1px solid greenyellow;
+    padding: 16px;
+    box-shadow: 20px -12px rgb(203, 54, 5);
+}
+
+h3 {
+    color: green;
+
 }
 
 body {
-    margin: 0px;
-    padding: 0px;
-    background-color: rgb(195, 201, 201);
+    margin: 20px;
+    padding: 20px;
 }
 
 main {
@@ -13,29 +38,36 @@ main {
 
 }
 footer {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     padding-left: 0px;
     padding-right: 0px;
-    background-color: rgb(195, 201, 201);
+    background-color: rgb(137, 212, 76);
+
 }
 
 nav {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid greenyellow;
     padding: 16px;
-    background-color: rgb(195, 201, 201);
+
 }
 
 a:hover {
-    background-color: green;
+    background-color: wheat;
+    color:black;
 }
 
-
-
-h1 {
-    background-color: rgb(195, 201, 201);
+a, a:active {
+    text-decoration:none;
+    color:green
 }
 
-div {
-    background-color: rgb(195, 201, 201);
+.div {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 0px 0px;
+}
+
+.colors tr:nth-child(even) {
+    background-color: gray;
 }
